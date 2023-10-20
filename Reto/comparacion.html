@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style1.css">
+    <title>Comparacion de Contraseña</title>
+</head>
+<body>
+    
+    <h1 id="subTitle" class="subTitle">Comparacion de Contraseñas</h1>
+    
+    <form id="formulario">
+    <label for="password1">Contraseña:</label>
+    <input type="password" id="password1" required><br><br>
+
+    <label for="password2">Confirmar Contraseña:</label>
+    <input type="password" id="password2" required><br><br>
+
+    <button id="result" class="result" type="button" onclick="compararContraseñas()">Comparar contraseñas</button>
+    <p id="resultado" class="resultado"></p>
+    </form>
+
+<script src="comparacion.js"></script>
+</body>
+</html>
